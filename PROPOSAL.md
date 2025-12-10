@@ -24,15 +24,16 @@ Category: Game Development
 
 6. MVP FEATURES (Bulleted list)
 
-   - Customized lists
-   - Ability to save rankings/results
-   - Advanced ranking system that acknowledges the subject of the list
+   - Customized lists made by the user 
+   - Ability to save rankings/results into a local file
+   - Advanced ranking system that acknowledges the subject of the list and prioritizes quick decision-making skills with a timer
+   - Show statistics/analytics and choose a personality type for the user based on decision making
 
 7. TIMELINE & DIVISION OF WORK (REQUIRED - NOT OPTIONAL)
 
    Week 1: Zuri – Task: conducting market research and working on the proposal | Camille – Task: implementing the RankingAlgorithm and RankingGame classes | Sophie – Task: implementing Junit class and Option/Main class. 
    
-   Week 2: Zuri – Task: Reviewing code and prioritizing customer features | Camille – Task: Debugging code/adding visuals | Sophie  - Task: 
+   Week 2: Zuri – Task: Reviewing code and prioritizing customer features | Camille – Task: Debugging code/adding visuals | Sophie  - Task: final testing of program
 
 8. TEAM ROLES & RESPONSIBILITIES (REQUIRED - NOT OPTIONAL)
 
