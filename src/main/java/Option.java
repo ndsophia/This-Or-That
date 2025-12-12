@@ -1,4 +1,3 @@
-package src.main.java;
 // object class
 
 public class Option {
@@ -16,6 +15,10 @@ public class Option {
         return wins;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void addWins(int n) {
         wins += n; 
     }
@@ -25,6 +28,6 @@ public class Option {
     }
 
     public void setLosses(int n) {
-        losses += n;
+        losses = n;
     }
 }

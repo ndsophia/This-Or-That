@@ -1,4 +1,3 @@
-package src.main.java;
 // game controller
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,7 +19,7 @@ public class RankingGame
         int count = 1;
         while (true)
         {
-            System.out.println("\nOption " + count + ": ");
+            System.out.print("\nOption " + count + ": ");
             String input = scanner.nextLine();
 
             if (input.equalsIgnoreCase("quit"))

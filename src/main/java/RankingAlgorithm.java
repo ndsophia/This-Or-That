@@ -1,4 +1,3 @@
-package src.main.java;
 // logic used to rank options in RankingGame class
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -27,6 +26,7 @@ public class RankingAlgorithm
             // j < howMany = continue checking all items that come after i
             for (int j = i + 1; j < howMany; j++)
             {
+                System.out.println("\nPlease type 'this', 'that', or 'quit'.");
                 //get the 2 items ranking btwn
                 String first = options.get(i);
                 String second = options.get(j);
@@ -57,7 +57,7 @@ public class RankingAlgorithm
                     }
                     else
                     {
-                        System.out.println("Please choose this, that, or quit");
+                        System.out.println("Please type 'this', 'that', or 'quit'.");
                     }
                 }
 
