@@ -24,6 +24,8 @@ Initial launch: Free beta with user feedback collection
 Post-MVP: Freemium model - free for up to 10 items per ranking, $2.99 one-time purchase for unlimited rankings and save/export features
 Future revenue: $0.99/month premium subscription for advanced features (multi-user rankings, criteria weighting, analytics)
 
+ The game would require a one-time purchase of $2.99 to be made in order to access the entire game. 
+
 6. MVP FEATURES (Bulleted list)
 
 * Binary comparison engine: Pairwise "This or That" prompts for all options
