@@ -10,7 +10,7 @@ public class RankingGame
 
     public void start()
     {
-        System.out.print("\nWelcome! First, enter a category for this ranking (food, work, fashion etc.):\n ");
+        System.out.print("\nWelcome! First, enter a category for this ranking (food, work, fashion etc.):\n");
         String category = scanner.nextLine();
 
         System.out.println("-Enter your options one by one");

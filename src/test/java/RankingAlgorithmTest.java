@@ -32,9 +32,7 @@ public class RankingAlgorithmTest {
         algo.makeRanking(options);
         algo.gameInput(options, wins);
         
-        assertTrue(
-            
-        );
+        assertTrue();
     }
 
 }
