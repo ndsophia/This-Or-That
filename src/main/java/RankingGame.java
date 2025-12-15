@@ -10,7 +10,7 @@ public class RankingGame
 
     public void start()
     {
-        System.out.print("\nWelcome! First, enter a category for this ranking (food, work, fashion etc.):\n");
+        System.out.print("\n₊⊹ Welcome! First, enter a category for this ranking (food, school, fashion etc.): ⊹₊\n");
         String category = scanner.nextLine();
 
         System.out.println("-Enter your options one by one");
@@ -99,7 +99,7 @@ public class RankingGame
     public void playAgain(Scanner scanner)
     {
         System.out.println("\nPlay Again?");
-        System.out.println("\nPlease enter \'yes\' or \'no\'");
+        System.out.println("\nPlease enter \'yes\' or \'no\'\n");
         String input = scanner.nextLine();
 
         if (input.equalsIgnoreCase("yes"))
@@ -113,7 +113,7 @@ public class RankingGame
         }
         else
         {
-            System.out.println("\nPlease enter \'yes\' or \'no\'");
+            playAgain(scanner);
         }
     }
     
