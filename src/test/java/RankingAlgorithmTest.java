@@ -1,6 +1,9 @@
 // junit testing class
     // maven is such a pain
 
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import java.util.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions.*;
@@ -19,7 +22,7 @@ public class RankingAlgorithmTest {
 
         wins[0] = 3;
         wins[1] = 3;
-        wins[2] = 3;
+        wins[2] = 0;
 
         ArrayList<String> options = new ArrayList<String>(); 
         options.add(a);
@@ -27,6 +30,11 @@ public class RankingAlgorithmTest {
         options.add(c);
 
         algo.makeRanking(options);
+        algo.gameInput(options, wins);
         
+        assertTrue(
+            
+        );
     }
+
 }
