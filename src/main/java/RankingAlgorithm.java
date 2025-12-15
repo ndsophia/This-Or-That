@@ -11,11 +11,10 @@ public class RankingAlgorithm
         this.scanner = scanner;
     }
 
-    private boolean gameInput(ArrayList<String> options, int[] wins) //input method
+    public boolean gameInput(ArrayList<String> options, int[] wins) //input method
     {
         //how many options - need to rank
         int howMany = options.size();
-
 
         //compare EVERY pair of items - nested loop - like memory game
         
