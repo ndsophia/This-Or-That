@@ -30,7 +30,7 @@ public class RankingGame
 
             if (input.equalsIgnoreCase("rank"))
             {
-                System.out.println("Going to ranking!");
+                System.out.println("\n  ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. Going to ranking!  ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.");
                 break;
             }
             options.add(input);
@@ -44,7 +44,7 @@ public class RankingGame
 
         if (ranking == null)
         {
-            System.out.println("\nNo entry, exiting game... Goodbye!");
+            System.out.println("\nׂ╰┈➤Exiting game... Goodbye!");
             return;
 
         }
