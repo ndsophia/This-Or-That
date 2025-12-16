@@ -3,6 +3,7 @@
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.util.*;
 import org.junit.jupiter.api.Test;
@@ -31,10 +32,21 @@ public class RankingAlgorithmTest {
 
         algo.makeRanking(options);
         algo.gameInput(options, wins);
-        
-        assertTrue(
-            
-        );
+    }
+
+    // test what game returns if not enough options
+    @Test
+    public void ranking_HandlesNotEnoughOptions() {
+        Scanner scan = new Scanner(System.in);
+        RankingAlgorithm algo = new RankingAlgorithm(scan);
+        ArrayList<String> options = new ArrayList<String>();
+
+        String a = "A";
+
+        options.add(a); 
+
+        assertNull(algo.makeRanking(options)); 
+
     }
 
 }
